@@ -10,3 +10,9 @@ Example:
 
 It will return all search-term-related-tweets between the times of:
 `{"date_since": "2022-03-28 02:15:00", "date_until": "2022-03-28 02:17:00"}`
+
+
+````
+#searchterms = '(NBA Summer League) OR (Spurs) -is:retweet'
+searchterms = '(Fenty) OR (fenty makeup)'
+````
