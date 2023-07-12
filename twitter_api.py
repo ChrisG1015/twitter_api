@@ -56,7 +56,7 @@ sentiments_df = sentiments_df[sentiments_df['lang'] == 'en']
 current_time = datetime.now().strftime('%H:%M:%S')
 print("DATAFRAME CREATED")
 
-sentiments_df.to_csv('{}-willsmith_slap_sentiment_analysis_data.csv'.format(current_time)) 
+sentiments_df.to_csv('{}-sentiment_analysis_data.csv'.format(current_time)) 
 
 
 # COLLECT DATE PAIRS
